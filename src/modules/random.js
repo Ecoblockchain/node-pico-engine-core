@@ -9,7 +9,7 @@ module.exports = function(core){
                 callback(null, cuid());
             }),
             word:mkKRLfn([], function(args, ctx, callback){
-                callback(null,randomWords())
+                callback(null,randomWords());
             }) 
         }
     };
